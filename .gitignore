@@ -1,0 +1,60 @@
+# ==================== Python ====================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv/
+*.egg-info/
+dist/
+build/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# ==================== IDE / Editor ====================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ==================== Operating System ====================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==================== Log Files ====================
+*.log
+*.txt
+log/
+logs/
+logger.txt
+
+# ==================== Data Files (NumPy) ====================
+*.npy
+*.npz
+*.pkl
+*.pickle
+
+# ==================== Model Checkpoints ====================
+*.pth
+*.pt
+*.ckpt
+checkpoints/
+models/
+
+# ==================== Output Directories ====================
+plot_3D/
+outputs/
+results/
+tmp/
+temp/
+
+# ==================== Secrets ====================
+.env
+.env.*
+secrets.json
+*_token*
